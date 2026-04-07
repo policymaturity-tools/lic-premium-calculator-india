@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal LIC Premium Estimator Widget</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="calculator-wrapper">
+    <div class="calculator-header">
+        <h2>LIC Premium Estimator</h2>
+        <p>Get an instant premium estimate with GST.</p>
+    </div>
+
+    <form id="licForm" class="calculator-body">
+        <div class="form-group">
+            <label for="policyName">Policy Type</label>
+            <select id="policyName" required>
+                <option value="endowment">Endowment Plans (e.g. Jeevan Labh, Anand)</option>
+                <option value="term">Term Plans (e.g. Jeevan Amar)</option>
+                <option value="moneyback">Money Back Plans</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="age">Current Age (Years)</label>
+                <input type="number" id="age" min="18" max="65" value="30" required>
+            </div>
+            <div class="form-group">
+                <label for="term">Policy Term (Years)</label>
+                <input type="number" id="term" min="5" max="35" value="21" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="sumAssured">Sum Assured (₹)</label>
+            <input type="number" id="sumAssured" min="100000" step="50000" value="500000" required>
+        </div>
+
+        <button type="submit" class="calc-btn">Calculate Estimate</button>
+    </form>
+
+    <div id="resultsArea" class="results-container" style="display: none;">
+        <h3>Premium Estimate Results</h3>
+        <div class="result-grid">
+            <div class="result-card">
+                <span class="rc-label">Estimated Yearly Premium</span>
+                <span class="rc-value highlighted" id="resYearly">₹0</span>
+            </div>
+            <div class="result-card">
+                <span class="rc-label">1st Year GST (4.5%)</span>
+                <span class="rc-value" id="resGst">₹0</span>
+            </div>
+            <div class="result-card">
+                <span class="rc-label">Total Incl. GST</span>
+                <span class="rc-value" id="resTotal">₹0</span>
+            </div>
+        </div>
+
+        <!-- THE SEO TRAFFIC DIVERTER / BACKLINK -->
+        <div class="seo-diverter">
+            <p>⚠️ <strong>Note:</strong> This is a standard estimated value.</p>
+            <p>For exact  tabular rates based on your specific age, plan, and riders:</p>
+            <a href="https://policymaturity.in/tools/" target="_blank" class="exact-btn">
+                Get Exact Premium & Maturity Returns
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- EMBED INSTRUCTION SECTION (For GitHub README viewing purposes) -->
+<div class="embed-instructions">
+    <h4>Embed this Calculator on Your Blog</h4>
+    <p>Copy the code below to add this free calculator to your WordPress site or blog:</p>
+    <textarea readonly>&lt;iframe src="https://policymaturity-tools.github.io/lic-premium-calculator-india/" width="100%" height="600" style="border:none; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);"&gt;&lt;/iframe&gt;</textarea>
+</div>
+
+<script src="script.js"></script>
+
+<!-- THE POWERED BY FOOTER (Natural Backlink) -->
+<div class="widget-footer">
+    Data logic safely powered by <a href="https://policymaturity.in/" target="_blank">PolicyMaturity.in</a>
+</div>
+
+</body>
+</html>
