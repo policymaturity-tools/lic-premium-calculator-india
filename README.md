@@ -5,8 +5,8 @@ Welcome to the LIC Premium Calculator directory. This project provides accurate,
 ## Available Tools:
 We have custom-built calculators that do not require any manual math. Check your exact premium, maturity amount, and agent commission free of cost.
 
-* [Click Here for LIC Jeevan Utsav Premium Calculator](https://policymaturity.in/tools/calculators/jeevan-utsav)
-* [Click Here for LIC Jeevan Anand Maturity Calculator](https://policymaturity.in/tools/calculators/jeevan-anand)
+* [Click Here for LIC Jeevan Utsav Premium Calculator](https://policymaturity.in/tools/calculators/jeevan-utsav-771)
+* [Click Here for LIC Jeevan Anand Maturity Calculator](https://policymaturity.in/tools/calculators/jeevan-anand-915)
 * [Explore All LIC Policy Calculators](https://policymaturity.in/tools/)
 
 ### Why Use Our Tools?
